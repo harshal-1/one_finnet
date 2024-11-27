@@ -22,15 +22,15 @@ const Navbar = () => {
             <Link to="/accessories" className="text-sm font-medium hover:text-primary">
               ACCESSORIES
             </Link>
-            <Link to="/about" className="text-sm font-medium hover:text-primary">
+            <Link to="/" className="text-sm font-medium hover:text-primary">
               ABOUT
             </Link>
-            <Link to="/contact" className="text-sm font-medium hover:text-primary">
+            <Link to="/" className="text-sm font-medium hover:text-primary">
               CONTACT
             </Link>
           </nav>
           <div className="flex items-center space-x-4">
-            <Link to="/cart" className="flex items-center space-x-1">
+            <Link to="/" className="flex items-center space-x-1">
               <ShoppingCart className="h-5 w-5" />
               <span className="text-sm">$0.00</span>
             </Link>
@@ -61,12 +61,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="block py-2 hover:text-primary">
+                <Link to="/" className="block py-2 hover:text-primary">
                   ABOUT
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="block py-2 hover:text-primary">
+                <Link to="/" className="block py-2 hover:text-primary">
                   CONTACT
                 </Link>
               </li>
